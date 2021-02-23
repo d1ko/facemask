@@ -1,0 +1,43 @@
+body{
+  background-color:#dfe6e9;
+
+  height: 100%;
+  /* margin: 0; */
+}
+/* .p5Canvas{
+  left:0;
+  position:absolute;
+  top:3200px;
+}
+.h1face{
+  position:absolute;
+  top:4200px;
+}
+.thead-dark{
+  position:relative;
+  margin-top:300px;
+
+}
+.container-fluid{
+  position:absolute;
+  top:3200px;
+}
+.chartjs-render-monitor{
+  position:relative;
+  top:2000px;
+}
+.covid-data-table-wrapper {
+  overflow-y: auto;
+  height: 350px;
+} */
+
+.covid-data-table-wrapper > table > thead th {
+  position: sticky;
+  /* top: 200px; */
+  box-shadow: 0 0 0 1px #343a40;
+}
+
+.covid-data-table-wrapper > table > thead th[sortable] {
+  cursor: pointer;
+  white-space: nowrap;
+}
